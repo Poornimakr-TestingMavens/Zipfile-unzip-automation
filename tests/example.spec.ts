@@ -4,20 +4,6 @@ import { FileHelper } from '../utils/excelHelper';
 import { ExcelValidator } from '../pages/zipFileOpen';
 import { ExcelValidationData } from '../utils/excelDataValidation';
 
-// Expected data for Excel files
-// const expectedDataMap: { [fileName: string]: any[][] } = {
-//     'Asia.xlsx': [
-//         ['Country', 'Capital'],
-//         ['India', 'New Delhi'],
-//         ['China', 'Beijing']
-//     ],
-//     'India.xlsx': [
-//         ['State', 'Capital'],
-//         ['Maharashtra', 'Mumbai'],
-//         ['Karnataka', 'Bengaluru']
-//     ]
-// };
-
 
 test.describe('Unzip and Validate Excel Data in Folders', () => {
 
