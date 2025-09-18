@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { PathConfig } from '../path-config/paths';
+import { PathConfig } from '../utils/excelHelper';
 import { FileHelper } from '../utils/excelHelper';
 import { ExcelValidator } from '../pages/zipFileOpen';
 import { ExcelValidationData } from '../utils/excelDataValidation';

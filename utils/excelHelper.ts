@@ -2,6 +2,12 @@ import * as fs from 'fs';
 import * as path from 'path';
 import AdmZip from 'adm-zip';
 
+
+export const PathConfig = {
+    zipFilePath: path.resolve(__dirname, '../test-data/test-data.zip'),
+    extractedFilesDir: path.resolve(__dirname, '../test-data/extracted')
+};
+
 export class FileHelper {
 
     static unzipFile(zipFilePath: string, extractToDir: string): string[] {
