@@ -18,7 +18,7 @@ Uses Playwright Test Runner for structured test execution.
 ZIPFILE-AUTOMATION/
 
 ZIPFILE-AUTOMATION/
-├── node_modules/               # Dependencies
+├── node_modules/               
 ├── pages/
 │   └── zipFileOpen.ts          # ExcelValidator (read & validate Excel data)
 ├── playwright-report/          # Test reports
@@ -34,6 +34,7 @@ ZIPFILE-AUTOMATION/
 ├── playwright.config.ts        # Playwright configuration
 ├── package.json
 └── README.md
+
 
 🛠️ Installation & Setup
 
