@@ -17,22 +17,23 @@ Uses Playwright Test Runner for structured test execution.
 📁 Project Structure
 ZIPFILE-AUTOMATION/
 
-│── node_modules/               # Dependencies
-│── pages/
+ZIPFILE-AUTOMATION/
+├── node_modules/               # Dependencies
+├── pages/
 │   └── zipFileOpen.ts          # ExcelValidator (read & validate Excel data)
-│── playwright-report/          # Test reports
-│── test-data/
+├── playwright-report/          # Test reports
+├── test-data/
 │   ├── extracted/              # Extracted Excel files
-│   ├── test-data.zip           # Sample zip file containing Excel files
-│── test-results/               # Playwright output results
-│── tests/
-│   └── example.spec.ts         # Main test spec for unzip & validation
-│── utils/
-│   ├── excelDataValidation.ts  # Parameterized expected data
+│   └── test-data.zip           # Sample zip with Excel files
+├── test-results/               # Playwright output results
+├── tests/
+│   └── example.spec.ts         # Main test spec (unzip & validation)
+├── utils/
+│   ├── excelDataValidation.ts  # Expected Excel data
 │   └── excelHelper.ts          # FileHelper (unzipping & file handling)
-│── playwright.config.ts        # Playwright configuration
-│── package.json
-│── README.md
+├── playwright.config.ts        # Playwright configuration
+├── package.json
+└── README.md
 
 🛠️ Installation & Setup
 
