@@ -16,6 +16,7 @@ Uses Playwright Test Runner for structured test execution.
 
 📁 Project Structure
 ZIPFILE-AUTOMATION/
+
 │── node_modules/               # Dependencies
 │── pages/
 │   └── zipFileOpen.ts          # ExcelValidator (read & validate Excel data)
